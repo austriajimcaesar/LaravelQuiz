@@ -21,3 +21,5 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/product', [App\Http\Controllers\ProductController::class, 'index']);
+Route::get('/order', [App\Http\Controllers\OrderController::class, 'index']);
+Route::get('/orderproduct', [App\Http\Controllers\OrderProductController::class, 'index']);
